@@ -1,0 +1,15 @@
+Package: Devcomhomologene
+Type: Package
+Title: Homology conversion
+Version: 0.1.0
+Author: wuguanhao
+Maintainer: wuguanhao <1367837156@qq.com>
+Description: This package can convert ligand and receptor data related to human or mouse development into data for different species.
+Depends: R (>= 3.5.0), dplyr, tidyr, homologene
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    ggplot2
+RoxygenNote: 7.3.2
+Data: The data related to humans and mice is stored in the data folder.
