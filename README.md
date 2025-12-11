@@ -3,7 +3,9 @@ Identification of ortholog ligand, receptor, TF or TG in other vertebrate specie
 To extend DEVCOM beyond human and mouse, we implemented DevComHomology, a module that projects DEVCOMdb L-R-TF-TG networks to additional vertebrates. DEVCOMdb is curated primarily in human and mouse; given a target species and its gene identifiers, DevComHomology normalizes genes to NCBI IDs and queries NCBI HomoloGene to retrieve orthologs. For each ligand, receptor, TF and TG in DEVCOMdb, the corresponding orthologs are substituted to generate species-specific CCC networks. Homologous interactions can currently be inferred for 20 commonly used vertebrate species, according to HomoloGene statistics (https://www.ncbi.nlm.nih.gov/homologene/statistics/). This strategy enables users to reuse human or mouse-based DEVCOMdb priors when applying DEVCOM in other vertebrate model systems.
 
 ```
-
+install.packages("remotes")
+remotes::install_github("guanhaowu123/Devcomhomologene")
+remotes::install_local("yourfile_dir/Devcomhomologene.zip")
 
 library(dplyr)
 library(tidyr)
