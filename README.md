@@ -10,9 +10,6 @@ library(tidyr)
 library(homologene)
 library(Devcomhomologene)
 
-# Suppose the function LRI_homology_conversion() is defined in your environment,
-# or source the file where you stored it:
-# source("path/to/your/LRI_homology_conversion.R")
 
 # Create a small example ligand-receptor CSV for demonstration
 example_df <- data.frame(
