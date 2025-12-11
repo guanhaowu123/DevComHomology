@@ -4,8 +4,8 @@ To extend DEVCOM beyond human and mouse, we implemented DevComHomology, a module
 
 ```
 install.packages("remotes")
-remotes::install_github("guanhaowu123/Devcomhomologene")
-remotes::install_local("yourfile_dir/Devcomhomologene.zip")
+remotes::install_github("guanhaowu123/DevComHomology")
+remotes::install_local("yourfile_dir/DevComHomology-master.zip")
 
 library(dplyr)
 library(tidyr)
