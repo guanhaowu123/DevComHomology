@@ -28,7 +28,7 @@ example_df <- data.frame(
 )
 
 # Save example to disk
-example_input <- "example_lr_human.csv"
+example_input <- "human_L_R_development.csv"
 write.csv(example_df, example_input, row.names = FALSE)
 
 # Call the conversion: mapping from human (9606) to mouse (10090)
